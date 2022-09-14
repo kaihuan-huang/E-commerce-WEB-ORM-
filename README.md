@@ -36,7 +36,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 ## Assets
 
-The following images demonstrate the web application's appearance and functionality in Insomnia:
+The following images demonstrate the web application's appearance and functionality in Insomnia & Draw.io:
 
 ![insomnia](images/insomnia.png)
 ![database](images/database.png)
@@ -63,7 +63,6 @@ Contributors should read the installation section.
  Sequelize
  MySQL database
  Dotenv Package
-
 ```
 ## Questions
 If you have any questions about this projects, please contact me directly at huangkaihuan0216@gmail.com. You can view more of my projects at https://github.com/kaihuan-huang.
