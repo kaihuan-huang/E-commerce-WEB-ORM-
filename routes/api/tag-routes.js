@@ -22,14 +22,7 @@ router.get('/:id', async (req, res) => {
     const tagData = await Tag.findOne({
     where: {
       id: req.params.id,
-    },
-    include: [
-      Category,
-      {
-        model: Product,
-        through: ProductTag,
-      },
-    ],
+    }
   })
   // try{
   //   const tagData = await Tag.findByPk(req.params.id, {
@@ -41,7 +34,7 @@ router.get('/:id', async (req, res) => {
       return;
     }
 
-    res.status(200).json(productData);
+    res.status(200).json(tagData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -63,9 +56,11 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
-    const updateTag = await Tag.update( {
-      product_id : req.params.product_id,
-    });
+    const updateTag = await Tag.update(req.body, {
+      where: {
+        id: req.params.id,
+      }
+  })
     res.status(200).json(updateTag);
   }catch(err) {
     res.status(500).json(err);

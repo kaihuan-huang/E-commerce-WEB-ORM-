@@ -11,12 +11,13 @@
 * [Questions](#questions)
 
 ## Description
-E-COMMERCE-WEB-Object-Relational Mapping (ORM) is built with the back end for an e-commerce site using Express.js API and Sequelize to interact with a MySQL database.
+E-COMMERCE-WEB-Object-Relational Mapping (ORM) is a back end for an e-commerce site using Express.js API and Sequelize to interact with a MySQL database.
 
 - Deployed link: https://github.com/kaihuan-huang/E-commerce-WEB-ORM-
 
-## More details
 
+## More details
+```
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
@@ -32,16 +33,14 @@ WHEN I open API GET routes in Insomnia Core for categories, products, or tags
 THEN the data for each of these routes is displayed in a formatted JSON
 WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
-
+```
 ## Assets
 
-The following images demonstrate the web application's appearance and functionality:
+The following images demonstrate the web application's appearance and functionality in Insomnia:
 
-![A Random Password Generator ](images/Start-page.png)
+![insomnia](images/insomnia.png)
 
-![Password-generator-end.png](images/Note-taker.png)
 
- 
 ## Installation 
 The user should clone the repository from GitHub and download Node. 
 Run `npm i ` to install.
@@ -50,17 +49,25 @@ Run `npm start ` to start the Note-Taker-App.
 
 ## Usage 
 Use inquirer from your command line to answer questions about your project.
-View walk through video here - [drive.google.com](https://drive.google.com/file/d/1BKyXJX9jFh4Joi15KVfzaLZOtGJ3eVAN/view)<br>
+View walk through video here - [E-COMMERCE-WEB-ORM-](https://youtu.be/rsbBu2DZqPY)<br>
 
 
 ## Contributing 
 Contributors should read the installation section. 
 
+## Technologies used
 
+```
+ Express.js API 
+ Sequelize
+ MySQL database
+ Dotenv Package
+
+```
 ## Questions
 If you have any questions about this projects, please contact me directly at huangkaihuan0216@gmail.com. You can view more of my projects at https://github.com/kaihuan-huang.
 
-## Made by
+## Made by 
 ```
 Kaihuan Huang
 
