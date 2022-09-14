@@ -39,6 +39,7 @@ THEN I am able to successfully create, update, and delete data in my database
 The following images demonstrate the web application's appearance and functionality in Insomnia:
 
 ![insomnia](images/insomnia.png)
+![database](images/database.png)
 
 
 ## Installation 
