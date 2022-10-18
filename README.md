@@ -50,7 +50,7 @@ Run `npm start ` to start the Note-Taker-App.
 
 ## Usage 
 Use inquirer from your command line to answer questions about your project.
-View walk through video here - [E-COMMERCE-WEB-ORM-](https://youtu.be/rsbBu2DZqPY)<br>
+View walk through video here - [E-COMMERCE-WEB-ORM-](https://drive.google.com/file/d/19GhWHEByLXkuM5QmHTz7RMPCBU9wOZN9/view)<br>
 
 
 ## Contributing 
